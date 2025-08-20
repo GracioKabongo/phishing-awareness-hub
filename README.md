@@ -9,11 +9,11 @@
 
 ![PhishGuard Screenshot](docs/screenshots/homepage.png)
 
-## 🌟 Visão Geral
+##  Visão Geral
 
 O PhishGuard é uma aplicação web completa desenvolvida para educar usuários sobre segurança digital, especificamente focada na identificação e prevenção de ataques de phishing. Através de uma abordagem gamificada e interativa, os usuários aprendem a reconhecer tentativas de phishing em um ambiente seguro e controlado.
 
-### 🎯 Objetivos
+###  Objetivos
 
 - **Educar** sobre diferentes tipos de ataques de phishing
 - **Treinar** habilidades de identificação através de simulações realistas
@@ -21,39 +21,39 @@ O PhishGuard é uma aplicação web completa desenvolvida para educar usuários 
 - **Analisar** emails suspeitos com ferramentas interativas
 - **Conscientizar** sobre a importância da segurança digital em Moçambique
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
-### 🎮 Simulador de Emails
+###  Simulador de Emails
 - **Interface realista** que simula clientes de email populares
 - **8+ simulações** de phishing com diferentes níveis de dificuldade
 - **Feedback imediato** com explicações detalhadas
 - **Análise de tempo** de resposta e tomada de decisão
 
-### ✅ Checklist de Segurança
+###  Checklist de Segurança
 - **Ferramenta interativa** para análise de emails suspeitos
 - **8 categorias** de verificação com pesos diferentes
 - **Pontuação de risco** em tempo real (0-100%)
 - **Recomendações personalizadas** baseadas na análise
 
-### 🏆 Sistema de Gamificação
+###  Sistema de Gamificação
 - **Sistema de XP** e progressão de níveis
 - **Badges conquistáveis** por diferentes conquistas
 - **Streak de dias** consecutivos de uso
 - **Ranking** e estatísticas de desempenho
 
-### 📊 Dashboard Analytics
+###  Dashboard Analytics
 - **Estatísticas detalhadas** de progresso
 - **Gráficos de performance** por dificuldade e categoria
 - **Histórico de atividades** e tentativas
 - **Métricas de precisão** e tempo médio
 
-### 📚 Módulo Educativo
+###  Módulo Educativo
 - **Conteúdo completo** sobre tipos de phishing
 - **Sinais de alerta** e indicadores suspeitos
 - **Dicas de proteção** e melhores práticas
 - **Estatísticas reais** sobre ataques cibernéticos
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Frontend
 - **React 18.2** - Framework principal
@@ -75,7 +75,7 @@ O PhishGuard é uma aplicação web completa desenvolvida para educar usuários 
 - **Prettier** - Formatação de código
 - **Git** - Controle de versão
 
-## 🚀 Instalação e Configuração
+##  Instalação e Configuração
 
 ### Pré-requisitos
 - **Node.js** 18+ 
@@ -112,7 +112,7 @@ O frontend estará rodando em `http://localhost:5173`
 curl -X POST http://localhost:5001/api/admin/seed-data
 ```
 
-## 📖 Como Usar
+##  Como Usar
 
 ### 1. **Registro/Login**
 - Crie uma conta ou use a conta demo
@@ -139,7 +139,7 @@ curl -X POST http://localhost:5001/api/admin/seed-data
 - Colete badges e suba de nível
 - Mantenha uma sequência de dias consecutivos
 
-## 🎯 Simulações Disponíveis
+##  Simulações Disponíveis
 
 | Categoria | Dificuldade | Descrição |
 |-----------|-------------|-----------|
@@ -152,24 +152,24 @@ curl -X POST http://localhost:5001/api/admin/seed-data
 | 🛒 Compras | Iniciante | Oferta falsa de desconto em loja moçambicana |
 | 🛒 Compras | Avançado | Confirmação de compra falsa - Shoprite/Game |
 
-## 🏅 Sistema de Badges
+##  Sistema de Badges
 
 ### Badges Comuns
-- **🎯 Primeiro Passo** - Complete sua primeira simulação
-- **📚 Estudioso** - Visite todas as seções educativas
-- **🔍 Iniciante** - Complete 5 simulações
+- **Primeiro Passo** - Complete sua primeira simulação
+- **Estudioso** - Visite todas as seções educativas
+- **Iniciante** - Complete 5 simulações
 
 ### Badges Raras
-- **👁️ Olho Aguçado** - Alcance 80% de precisão
-- **🔥 Mestre da Sequência** - Mantenha 7 dias consecutivos
-- **⚡ Velocista** - Complete simulação em menos de 30s
+- **Olho Aguçado** - Alcance 80% de precisão
+- **Mestre da Sequência** - Mantenha 7 dias consecutivos
+- **Velocista** - Complete simulação em menos de 30s
 
 ### Badges Épicas
-- **🏆 Perfeição** - Alcance 100% de precisão (min. 10 tentativas)
-- **🛡️ Especialista** - Complete 50 simulações
-- **👑 Mestre PhishGuard** - Alcance nível 10
+- **Perfeição** - Alcance 100% de precisão (min. 10 tentativas)
+- **Especialista** - Complete 50 simulações
+- **Mestre PhishGuard** - Alcance nível 10
 
-## 📊 Métricas e Analytics
+## Métricas e Analytics
 
 ### Métricas Individuais
 - **Taxa de Precisão** - Porcentagem de acertos
@@ -183,7 +183,7 @@ curl -X POST http://localhost:5001/api/admin/seed-data
 - **Performance por Tipo** - Banking, Social, Work, Shopping
 - **Evolução Temporal** - Progresso ao longo do tempo
 
-## 🔧 Configuração Avançada
+## Configuração Avançada
 
 ### Variáveis de Ambiente
 
@@ -213,7 +213,7 @@ VITE_APP_NAME=PhishGuard
 2. Ajuste valores de XP e critérios de badges
 3. Reinicie o backend
 
-## 🧪 Testes
+## Testes
 
 ### Frontend
 ```bash
@@ -234,7 +234,7 @@ python -m pytest --cov=src
 npm run test:e2e
 ```
 
-## 📦 Build e Deploy
+##  Build e Deploy
 
 ### Build de Produção
 ```bash
@@ -258,7 +258,7 @@ docker-compose up -d
 2. Configure as variáveis de ambiente
 3. Deploy da pasta `dist/`
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Contribuições são bem-vindas! Por favor, siga estes passos:
 
@@ -274,15 +274,15 @@ Contribuições são bem-vindas! Por favor, siga estes passos:
 - Siga os padrões de código existentes
 - Atualize a documentação quando necessário
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-## 👥 Autores
+##  Autores
 
 - **Grácio Kabongo** - *Desenvolvimento inicial* - [@GracioKabongo](https://github.com/GracioKabongo)
 
-## 🙏 Agradecimentos
+##  Agradecimentos
 
 - **INCM** - Instituto Nacional das Comunicações de Moçambique
 - **OWASP** - Melhores práticas de segurança
@@ -290,13 +290,13 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 - **Comunidade Open Source** - Ferramentas e bibliotecas utilizadas
 - **Universidades moçambicanas** - Apoio à educação em segurança digital
 
-## 📞 Contato
+##  Contato
 
 - **Email**: graciolumbala01@gmail.com
 - **GitHub**: [@GracioKabongo](https://github.com/GracioKabongo)
 - **LinkedIn**: [Grácio Kabongo](https://linkedin.com/in/gracio-kabongo)
 
-## 🔗 Links Úteis
+##  Links Úteis
 
 - [Documentação da API](docs/API.md)
 - [Guia de Contribuição](CONTRIBUTING.md)
@@ -305,7 +305,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-**⚠️ Aviso Legal**: Este projeto é apenas para fins educacionais. Todas as simulações de phishing são fictícias e executadas em ambiente controlado. Não use este conhecimento para atividades maliciosas.
+**Aviso Legal**: Este projeto é apenas para fins educacionais. Todas as simulações de phishing são fictícias e executadas em ambiente controlado. Não use este conhecimento para atividades maliciosas.
 
-**🛡️ Segurança**: Se você suspeita de um email de phishing real, reporte para as autoridades competentes e nunca forneça informações pessoais.
+**Segurança**: Se você suspeita de um email de phishing real, reporte para as autoridades competentes e nunca forneça informações pessoais.
 
